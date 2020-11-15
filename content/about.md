@@ -1,18 +1,20 @@
 +++
-title = "About Hugo"
+title = "Cheap Android Gadgets"
 date = "2014-04-09"
 image = 'read.jpg'
+
 +++
 
-Hugo is the **world’s fastest framework for building websites**. It is written in Go.
+Cheap Android Gadgets is an Affiliate Website of AliExpress Product. 
+We paid when everyone buy From this website.
 
-It makes use of a variety of open source projects including:
+This website was Created with AliStatic.
 
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+If You want to make money from Affiliate using same tools than you can Contact
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+http://facebook.com/rifanmuazin.fanspage
+
+Rif'an Muazin created AliStatic for Us.
+
+Thank You
 

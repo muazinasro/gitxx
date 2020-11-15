@@ -5,7 +5,18 @@
   {{- $scratch.Set "image" "thumbnail.svg" }}
 {{- end }}
 {{- $image := $scratch.Get "image" }}
+{{- $image := $scratch.Get "image" }}
 {{- $bg := ($image) }}
+
+{{- $scratch := newScratch }}
+{{- if isset .Params "aff" }}
+  {{- $scratch.Set "aff" .Params.aff }}
+{{- else }}
+  {{- $scratch.Set "aff" .Permalink }}
+{{- end }}
+{{- $aff := $scratch.Get "aff" }}
+
+
 <li class = 'post_item'>
   <a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ absURL $bg }});'>
   </a>
@@ -25,5 +36,6 @@
       <a href='{{ .Permalink }}'>{{ .Title  }}</a>
     </h3>
     <p class = 'pale'>{{ .Summary | truncate 90 }}</p>
+	<p align="center"><a href="{{ $aff }}" rel="nofollow" target="_blank" rel="nofollow"><button class="btn">Buy</button></a></p>
   </div>
 </li>
